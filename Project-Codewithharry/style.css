@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(2, 2, 28);
+}
+
+.box{
+    position: sticky;
+    background-color: rgb(31 41 55);
+}
+
+.skewbox{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(17 24 39);
+    position: absolute;
+    top: 0px;
+    right: 730px;
+    height: 80vh;
+    width: 100vw;
+    transform: skewX(-11deg);
+}
+
+.main{
+    background-image: url("dan-gold-N7RiDzfF2iw-unsplash.jpg");
+    height: 80vh;
+    width: 100vw;
+}
+.nav1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.navelements ul{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    list-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+}
+.title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(168 85 247);
+}
+button
+{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(168 85 247);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.separation{
+    border: 1px solid rgba(255, 255, 255, 0.205);
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    color: rgb(168 85 247);
+}
+.nav2elements{
+    display: flex;
+    gap: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.details{
+    position: relative;
+    z-index: 20;
+    padding: 70px 50px;
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.details h1{
+    font-weight: bold;
+}
+
+.details p{
+    color: gray;
+}
+
+.buttons2 button{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+}
