@@ -253,3 +253,38 @@ button
     position: relative;
     left: 10px;
 }
+
+.footer2{
+    height: 100px;
+    background-color: rgb(31 41 55);
+    position: relative;
+}
+
+.footer2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+}
+.imagecwd{
+    display: flex;
+    padding: 30px;
+}
+
+.cwd{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    font-weight: 600;
+    color: white;
+}
+.cwdlower{
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: large; */
+    /* font-weight: 600; */
+    color: rgb(168, 157, 157);
+}
