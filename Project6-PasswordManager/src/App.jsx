@@ -6,11 +6,10 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <div>
-      <Navbar/>
-      <div className='min-h-[87vh]'>
-      <Manager/>
-      </div>
-      <Footer/>
+      <Navbar />
+      <div className="bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)]"> <Manager /></div>
+
+      <Footer />
     </div>
   )
 }
